@@ -1,17 +1,10 @@
-﻿#!/bin/bash
+#/bin/bash
 
-# rols mergefile a b to c
+file_a=($(cat $1))
+file_b=($(cat $2))
+num=$4
 
-file_a=(`cat $1`)
-file_b=(`cat $2`)
-
-length=${#file_a[@]}
-lengthn=${#filea[0]}
-num=`expr length / lengthn`
-
-
-for(index=0;index<num;index++);
+for ((i=0;i<num;++i))
 do
-echo "{file_a[index]} ${file_b[index]}" >> $3
+echo ${file_a[i]} ${file_b[i]} >> $3
 done
-
