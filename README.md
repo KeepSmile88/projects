@@ -1,29 +1,16 @@
-# 整合文件
+# ����һ��С��Ŀ�ļ���
 
-## 功能说明
+* (mergefile_for_shell)[.mergefile/for_shell/]
 
-将文件a中的第一行与文件b中的第一行合并成一行到文件c中，文件a的一行与文件b的一行中间用一个空格隔开。
+  ���������ı��ļ� ���ܼ���Ŀ 
 
-### 图形说明
+* (mergefile_for_python)[.mergefile/for_python/]
 
-|文件a|文件b|文件c|
-|:---:|:---:|:---:|
-|1|a|1 a|
-|2|b|2 b|
-|3|c|3 c|
+  Ϊ���Ѱ�æ��д����л
+  
+* DDNS-dnspod_for_shell
 
-## 使用方法
+  dnspod �Ķ�̬����������shellʵ�ֽű�
+  By ����   http://www.anrip.com/ddnspod
 
-``` 
-$ ./mergefile.sh file1 file2 file3 Rows
-```
-
-* file1 是上述图形说明的文件a
-* file2 是上述图形说明的文件b
-* file3 是上述图形说明的文件c
-* Rows 表示文件总共的行数
-
-
-## BUG
-
-脚本还有有待增强，寻仙问道中...
+û���ر�˵�������ڸ��˵�С��Ʒ MIT ��Ȩ
